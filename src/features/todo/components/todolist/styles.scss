@@ -1,0 +1,13 @@
+.todol {
+    font-weight: bold;
+
+    &>li {
+        cursor: pointer;
+    }
+
+    &>li.completed {
+        font-style: italic;
+        color: rgb(223, 163, 89);
+        text-decoration: line-through;
+    }
+}

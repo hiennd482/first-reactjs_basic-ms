@@ -1,0 +1,12 @@
+.album {
+    &Thumb {
+        &>img {
+            border-radius: 15px;
+        }
+
+    }
+
+    &Name {
+        font-weight: bold;
+    }
+}
